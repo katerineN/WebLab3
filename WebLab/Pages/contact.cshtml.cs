@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebLab.Data;
 using WebLab.Models;
 using WebLab.Services;
@@ -43,11 +44,31 @@ public class contact : DefaultModel
             First_Name = SelectedFormContact.First_Name, Email = SelectedFormContact.Email, Last_Name = SelectedFormContact.Last_Name, Phone = SelectedFormContact.Phone
         });
         CsvService.WriteToCsv(SelectedFormContact!);
+        ContactsInsert(SelectedFormContact);
         return Content($@"<fieldset>
                         <div id='success_page'> 
                         <h1>Email Sent Successfully.</h1>
                         <p>Thank you <strong>{SelectedFormContact!.First_Name}<strong>, your message has been submitted to us.<p>
                         </div>
                     <fieldset>");
+    }
+    
+    public static void ContactsInsert(ContactForm cnt)
+    {
+        IConfiguration config = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json")
+            .Build();
+        var options = new DbContextOptionsBuilder<Context>()
+            .UseSqlite(config.GetConnectionString("Default"))
+            .Options;
+
+        using (var context = new Context(options))
+        {
+            context.Database.EnsureCreated();
+            context.Database.Migrate();
+
+            context.FormContacts.Add(cnt);
+            context.SaveChanges();
+        }
     }
 }

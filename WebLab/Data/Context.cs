@@ -14,7 +14,7 @@ public class Context:DbContext
        
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Filename=GoodWeb.db");
+        optionsBuilder.UseSqlite("Filename=MyDatabase.db");
         base.OnConfiguring(optionsBuilder);
     }
     

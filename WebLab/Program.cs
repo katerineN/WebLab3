@@ -11,8 +11,11 @@ namespace WebLab
             var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+            builder.Services.AddEntityFrameworkSqlite().AddDbContext<Context>();
             builder.Services.AddRazorPages();
-            builder.Services.AddDbContext<Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Context") ?? throw new InvalidOperationException("Connection string 'Context' not found.")));
+            builder.Services.AddDbContext<Context>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Context") ??
+                                     throw new InvalidOperationException("Connection string 'Context' not found.")));
 
             builder.Services.AddTransient<JsonService>();
             builder.Services.AddTransient<CsvService>();
