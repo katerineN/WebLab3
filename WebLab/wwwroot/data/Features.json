@@ -1,0 +1,22 @@
+[
+  {
+    "headline": "Дизайн для смарт часов",
+    "description": "Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.",
+    "img_path": "uploads/service_01.jpg"
+  },
+  {
+    "headline": "Web-дизайн",
+    "description": "Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum fermentum erat. It nam auctor.",
+    "img_path": "uploads/service_02.jpg"
+  },
+  {
+    "headline": "Мобильный дизайн",
+    "description": "Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam at eget quam. Integer ultricies et magna quis accumsan.",
+    "img_path": "uploads/service_03.jpg"
+  },
+  {
+    "headline": "Цифровой Design for Mac",
+    "description": "Praesent in neque congue sapien lobortis faucibus id eget erat. <br>Pellentesque maximus rutrum felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    "img_path": "uploads/service_04.jpg"
+  }
+]

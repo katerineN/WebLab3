@@ -1,0 +1,63 @@
+@page
+@model WebLab.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>ContactForm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ContactForm.ID" />
+            <div class="form-group">
+                <label asp-for="ContactForm.First_Name" class="control-label"></label>
+                <input asp-for="ContactForm.First_Name" class="form-control" />
+                <span asp-validation-for="ContactForm.First_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Last_Name" class="control-label"></label>
+                <input asp-for="ContactForm.Last_Name" class="form-control" />
+                <span asp-validation-for="ContactForm.Last_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Phone" class="control-label"></label>
+                <input asp-for="ContactForm.Phone" class="form-control" />
+                <span asp-validation-for="ContactForm.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Email" class="control-label"></label>
+                <input asp-for="ContactForm.Email" class="form-control" />
+                <span asp-validation-for="ContactForm.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Select_Service" class="control-label"></label>
+                <input asp-for="ContactForm.Select_Service" class="form-control" />
+                <span asp-validation-for="ContactForm.Select_Service" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Select_Price" class="control-label"></label>
+                <input asp-for="ContactForm.Select_Price" class="form-control" />
+                <span asp-validation-for="ContactForm.Select_Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactForm.Comments" class="control-label"></label>
+                <input asp-for="ContactForm.Comments" class="form-control" />
+                <span asp-validation-for="ContactForm.Comments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+

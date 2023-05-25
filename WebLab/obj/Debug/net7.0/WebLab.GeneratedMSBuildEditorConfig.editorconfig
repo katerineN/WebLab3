@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebLab
+build_property.RootNamespace = WebLab
+build_property.ProjectDir = C:\Users\катя\RiderProjects\WebLab3\WebLab\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\катя\RiderProjects\WebLab3\WebLab
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/about_us.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXRfdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/features.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmVhdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/FormScaffold/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNjYWZmb2xkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/FormScaffold/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNjYWZmb2xkXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/FormScaffold/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNjYWZmb2xkXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/FormScaffold/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNjYWZmb2xkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/FormScaffold/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVNjYWZmb2xkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJpY2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/катя/RiderProjects/WebLab3/WebLab/Pages/testimonials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdGltb25pYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
